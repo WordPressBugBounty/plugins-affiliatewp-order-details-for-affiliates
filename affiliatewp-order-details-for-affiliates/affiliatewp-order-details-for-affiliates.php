@@ -2,10 +2,10 @@
 /**
  * Plugin Name: AffiliateWP - Order Details For Affiliates
  * Plugin URI: https://affiliatewp.com/addons/order-details-affiliates/
- * Description: Share customer purchase information with the affiliate who referred them.
- * Author: Sandhills Development, LLC
- * Author URI: https://sandhillsdev.com
- * Version: 1.3
+ * Description: Share customer purchase information with the affiliate who referred them
+ * Author: AffiliateWP
+ * Author URI: https://affiliatewp.com
+ * Version: 1.3.0
  * Text Domain: affiliatewp-order-details-for-affiliates
  *
  * AffiliateWP is distributed under the terms of the GNU General Public License as published by
@@ -21,9 +21,6 @@
  * along with AffiliateWP. If not, see <http://www.gnu.org/licenses/>.
  *
  * @package Order Details For Affiliates
- * @category Core
- * @author AffiliateWP
- * @version 1.3
  */
 
 // Exit if accessed directly
@@ -163,7 +160,7 @@ class AffiliateWP_ODFA_Requirements_Check extends AffiliateWP_Requirements_Check
 	 * @return string Unmet requirements URL.
 	 */
 	protected function unmet_requirements_url() {
-		return 'https://docs.affiliatewp.com/article/2361-minimum-requirements-roadmaps';
+		return 'https://affiliatewp.com/docs/minimum-requirements-roadmap/';
 	}
 
 }

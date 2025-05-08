@@ -393,20 +393,13 @@ final class AffiliateWP_Order_Details_For_Affiliates {
 	 *
 	 * @access public
 	 * @since 1.0.0
+	 * @since 1.3.0 Remove Get More add-ons link.
 	 *
 	 * @param array  $links The current links array.
 	 * @param string $file A specific plugin table entry.
 	 * @return array $links The modified links array.
 	 */
 	public function plugin_meta( $links, $file ) {
-		if ( plugin_basename( __FILE__ ) === $file ) {
-			$plugins_link = array(
-				'<a title="' . __( 'Get more add-ons for AffiliateWP', 'affiliatewp-order-details-for-affiliates' ) . '" href="http://affiliatewp.com/addons/" target="_blank">' . __( 'Get add-ons', 'affiliatewp-order-details-for-affiliates' ) . '</a>',
-			);
-
-			$links = array_merge( $links, $plugins_link );
-		}
-
 		return $links;
 	}
 

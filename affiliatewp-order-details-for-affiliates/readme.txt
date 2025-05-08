@@ -1,14 +1,14 @@
 === AffiliateWP - Order Details For Affiliates ===
-Contributors: sumobi, mordauk, drewapicture
-Tags: AffiliateWP, affiliate, Pippin Williamson, Andrew Munro, mordauk, pippinsplugins, sumobi, ecommerce, e-commerce, e commerce, selling, membership, referrals, marketing
+Contributors: sumobi, aubreypwd
+Tags: affiliatewp, order details, affiliate dashboard, customer information, referral details
 Requires at least: 5.2
-Tested up to: 6.0
-Requires PHP: 5.6
-Stable tag: 1.3
+Tested up to: 6.8
+Requires PHP: 7.4
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Allow affiliates to see order details on referrals they generated.
+Allow affiliates to see order details on referrals they generated
 
 == Description ==
 
@@ -66,10 +66,10 @@ Note: When there is global access, the checkbox on the edit affiliate screen is 
 
 == Changelog ==
 
-= 1.3 =
+= 1.3.0 =
 * New: Requires WordPress 5.2 minimum
 
-= 1.2 =
+= 1.2.0 =
 * New: Enforce minimum dependency requirements checking
 * New: Requires PHP 5.6 minimum
 * New: Requires WordPress 5.0 minimum
@@ -105,7 +105,7 @@ Note: When there is global access, the checkbox on the edit affiliate screen is 
 = 1.1.1 =
 * Fix: The [affiliate_order_details] shortcode was not checking to see if the affiliate had access to the order details
 
-= 1.1 =
+= 1.1.0 =
 * New [affiliate_order_details] shortcode for showing the order details on any WordPress page
 * New: Support for WooCommerce Sequential Order Numbers Pro
 * New: Table columns will now disappear if all details in that table column is hidden
@@ -117,5 +117,5 @@ Note: When there is global access, the checkbox on the edit affiliate screen is 
 * New: EDD integration now supports Shipping Address provided by EDD's [Simple Shipping](https://easydigitaldownloads.com/extensions/simple-shipping/ "Simple Shipping")
 * New: EDD integration now supports Billing Address provided by payment gateways
 
-= 1.0 =
+= 1.0.0 =
 * Initial release
